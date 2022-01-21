@@ -3,7 +3,7 @@
 -Для запуска скрипта необходимо запустить сервер командой make docker-start;
 
 -Далее открыть localhost:8080, зайти в phpMyAdmin(cервер: mysql, пользователь: dev, пароль: dev) 
- и выполнить импорт файла test.sql (в папке Database);
+ и выполнить импорт файла test.sql(в папке Database) в базу test;
  
 -Зайти на localhost:8000;
 
