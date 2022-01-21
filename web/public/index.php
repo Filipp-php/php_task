@@ -9,6 +9,7 @@
 
 <body>
 <br>
+<div class="container">
 <?php
 
 $documentRoot = $_SERVER['DOCUMENT_ROOT'];
@@ -17,13 +18,10 @@ require_once $documentRoot . '/app/vendor/autoload.php';
 use App\Source\Constants;
 use App\Source\Parser;
 
-
-$url = "https://etp.eltox.ru/registry/procedure?id=&procedure=&oos_id=&company=&inn=&type=1&price_from=&price_to=&published_from=&published_to=&offer_from=&offer_to=&status=";
-$data = Parser::sendRequest($url);
+$data = Parser::sendRequest();
+if($data){
 echo "<br>";
 ?>
-    <div class="container">
-
         <?php
         for ($i = 0; $i < count($data['number']); $i++) {
             ?>
@@ -54,7 +52,7 @@ echo "<br>";
             </div>
         </div>
             <br>
-        <?php } ?>
+        <?php }}?>
 
     </div>
 </body>

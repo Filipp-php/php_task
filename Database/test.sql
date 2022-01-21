@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: mysql
--- Время создания: Янв 20 2022 г., 16:50
+-- Время создания: Янв 21 2022 г., 08:05
 -- Версия сервера: 8.0.25
 -- Версия PHP: 7.4.20
 
@@ -56,6 +56,7 @@ CREATE TABLE `procedures` (
 --
 ALTER TABLE `documents`
   ADD PRIMARY KEY (`d_id`),
+  ADD UNIQUE KEY `ProcDoc` (`pr_num`,`doc_name`(100)),
   ADD KEY `pr_num` (`pr_num`);
 
 --
@@ -72,7 +73,7 @@ ALTER TABLE `procedures`
 -- AUTO_INCREMENT для таблицы `documents`
 --
 ALTER TABLE `documents`
-  MODIFY `d_id` int NOT NULL AUTO_INCREMENT;
+  MODIFY `d_id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=191;
 
 --
 -- Ограничения внешнего ключа сохраненных таблиц

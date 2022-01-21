@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: mysql
--- Время создания: Янв 20 2022 г., 16:52
+-- Время создания: Янв 21 2022 г., 08:06
 -- Версия сервера: 8.0.25
 -- Версия PHP: 7.4.20
 
@@ -39,44 +39,44 @@ CREATE TABLE `documents` (
 --
 
 INSERT INTO `documents` (`d_id`, `pr_num`, `doc_name`, `doc_link`) VALUES
-(39, 2282, '61e987d25012c_2. ТЗ ГСМ.docx', 'https://storage.eltox.ru/766e466e-c21c-4162-b6c3-6e9ec08ae64a/61e987d25012c_2. ТЗ ГСМ.docx'),
-(40, 2282, '61e987d60d9e4_3. Обоснование НМЦД.docx', 'https://storage.eltox.ru/766e466e-c21c-4162-b6c3-6e9ec08ae64a/61e987d60d9e4_3. Обоснование НМЦД.docx'),
-(41, 2282, '61e987dac032e_4. Проект Договора ГСМ.docx', 'https://storage.eltox.ru/766e466e-c21c-4162-b6c3-6e9ec08ae64a/61e987dac032e_4. Проект Договора ГСМ.docx'),
-(42, 2282, '61e987def3e60_Извещение и документация ЭЗК Поставка топлива.docx', 'https://storage.eltox.ru/766e466e-c21c-4162-b6c3-6e9ec08ae64a/61e987def3e60_Извещение и документация ЭЗК Поставка топлива.docx'),
-(43, 2282, '61e987e391abd_Положение.doc', 'https://storage.eltox.ru/766e466e-c21c-4162-b6c3-6e9ec08ae64a/61e987e391abd_Положение.doc'),
-(44, 2281, '61e7d16d6fef3_Извещение.doc', 'https://storage.eltox.ru/f2c0a317-1cde-4373-a146-49d4c99b8837/61e7d16d6fef3_Извещение.doc'),
-(45, 2280, '61dede87a1f68_Извещение и документация запроса котировок молоко.docx', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61dede87a1f68_Извещение и документация запроса котировок молоко.docx'),
-(46, 2280, '61dedfdba09aa_Проект Договора Молоко 1 кв. 2022 (февраль, март).docx', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61dedfdba09aa_Проект Договора Молоко 1 кв. 2022 (февраль, март).docx'),
-(47, 2280, '61dedfe3b6d0e_Обоснование молоко на 1 кв. (февраль, март) 2022г..pdf', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61dedfe3b6d0e_Обоснование молоко на 1 кв. (февраль, март) 2022г..pdf'),
-(48, 2280, '61dedfe889017_Положение о закупках 20.07.2021.pdf', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61dedfe889017_Положение о закупках 20.07.2021.pdf'),
-(49, 2280, '61dedfed0a5ae_Изменения в Положение о закупке товаров, работ и услуг.pdf', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61dedfed0a5ae_Изменения в Положение о закупке товаров, работ и услуг.pdf'),
-(50, 2279, '61dc260fc0a12_Извещение и документация запроса котировок фрукты.docx', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc260fc0a12_Извещение и документация запроса котировок фрукты.docx'),
-(51, 2279, '61dc2613c3468_Проект договора на поставку фруктов.doc', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc2613c3468_Проект договора на поставку фруктов.doc'),
-(52, 2279, '61dc261af24ff_Положение о закупке товаров_compressed_compressed.pdf', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc261af24ff_Положение о закупке товаров_compressed_compressed.pdf'),
-(53, 2278, '61dc235c6b3ce_Извещение и документация запроса котировок молоко.docx', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc235c6b3ce_Извещение и документация запроса котировок молоко.docx'),
-(54, 2278, '61dc236152afa_Проект договора на молоко.doc', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc236152afa_Проект договора на молоко.doc'),
-(55, 2278, '61dc2369300c9_Положение о закупке товаров_compressed_compressed.pdf', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc2369300c9_Положение о закупке товаров_compressed_compressed.pdf'),
-(56, 2277, '61dc19adb7155_Извещение и документация запроса котировок крупа.docx', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc19adb7155_Извещение и документация запроса котировок крупа.docx'),
-(57, 2277, '61dc19c307221_Проект договора на крупа, мука, макаронные изделия.doc', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc19c307221_Проект договора на крупа, мука, макаронные изделия.doc'),
-(58, 2277, '61dc19cd50847_Положение о закупке товаров_compressed_compressed.pdf', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc19cd50847_Положение о закупке товаров_compressed_compressed.pdf'),
-(59, 2276, '61dc15e14bfc1_Извещение и документация запроса котировок бакалея.docx', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc15e14bfc1_Извещение и документация запроса котировок бакалея.docx'),
-(60, 2276, '61dc15e5867f8_Проект договора на поставку бакалеи.doc', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc15e5867f8_Проект договора на поставку бакалеи.doc'),
-(61, 2276, '61dc15ee8d32a_Положение о закупке товаров_compressed_compressed.pdf', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc15ee8d32a_Положение о закупке товаров_compressed_compressed.pdf'),
-(62, 2275, '61cc50bd8537b_Извещение котировка.docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61cc50bd8537b_Извещение котировка.docx'),
-(63, 2275, '61cc50c127f87_02 Описание предмета закупки.docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61cc50c127f87_02 Описание предмета закупки.docx'),
-(64, 2275, '61cc50c38b1ae_2.1 Обоснование НМЦД.docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61cc50c38b1ae_2.1 Обоснование НМЦД.docx'),
-(65, 2275, '61cc50c65fbda_04 Проект договора.docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61cc50c65fbda_04 Проект договора.docx'),
-(66, 2275, '61cc50c9024c5_05 Положение о закупках 2021г..docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61cc50c9024c5_05 Положение о закупках 2021г..docx'),
-(67, 2274, '61ba03333f926_Извещение котировка.docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61ba03333f926_Извещение котировка.docx'),
-(68, 2274, '61ba0336cecf2_05 Положениео закупке от 06.10.2021 с изменениями.docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61ba0336cecf2_05 Положениео закупке от 06.10.2021 с изменениями.docx'),
-(69, 2274, '61ba03390f796_04 Проект договора.doc', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61ba03390f796_04 Проект договора.doc'),
-(70, 2274, '61ba033b37ed9_2.1 Обоснование НМЦД.docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61ba033b37ed9_2.1 Обоснование НМЦД.docx'),
-(71, 2274, '61ba033d74205_02 Описание предмета закупки.docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61ba033d74205_02 Описание предмета закупки.docx'),
-(72, 2273, '61b876696b866_Извещение котировка.docx', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61b876696b866_Извещение котировка.docx'),
-(73, 2273, '61b8766c30419_02 Описание предмета закупки.docx', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61b8766c30419_02 Описание предмета закупки.docx'),
-(74, 2273, '61b8766e69990_2.1 Обоснование НМЦД.docx', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61b8766e69990_2.1 Обоснование НМЦД.docx'),
-(75, 2273, '61b87670b04d2_04 Проект договора.doc', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61b87670b04d2_04 Проект договора.doc'),
-(76, 2273, '61b876734ced5_05 Положениео закупке.pdf', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61b876734ced5_05 Положениео закупке.pdf');
+(191, 2282, '61e987d25012c_2. ТЗ ГСМ.docx', 'https://storage.eltox.ru/766e466e-c21c-4162-b6c3-6e9ec08ae64a/61e987d25012c_2. ТЗ ГСМ.docx'),
+(192, 2282, '61e987d60d9e4_3. Обоснование НМЦД.docx', 'https://storage.eltox.ru/766e466e-c21c-4162-b6c3-6e9ec08ae64a/61e987d60d9e4_3. Обоснование НМЦД.docx'),
+(193, 2282, '61e987dac032e_4. Проект Договора ГСМ.docx', 'https://storage.eltox.ru/766e466e-c21c-4162-b6c3-6e9ec08ae64a/61e987dac032e_4. Проект Договора ГСМ.docx'),
+(194, 2282, '61e987def3e60_Извещение и документация ЭЗК Поставка топлива.docx', 'https://storage.eltox.ru/766e466e-c21c-4162-b6c3-6e9ec08ae64a/61e987def3e60_Извещение и документация ЭЗК Поставка топлива.docx'),
+(195, 2282, '61e987e391abd_Положение.doc', 'https://storage.eltox.ru/766e466e-c21c-4162-b6c3-6e9ec08ae64a/61e987e391abd_Положение.doc'),
+(196, 2281, '61e7d16d6fef3_Извещение.doc', 'https://storage.eltox.ru/f2c0a317-1cde-4373-a146-49d4c99b8837/61e7d16d6fef3_Извещение.doc'),
+(197, 2280, '61dede87a1f68_Извещение и документация запроса котировок молоко.docx', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61dede87a1f68_Извещение и документация запроса котировок молоко.docx'),
+(198, 2280, '61dedfdba09aa_Проект Договора Молоко 1 кв. 2022 (февраль, март).docx', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61dedfdba09aa_Проект Договора Молоко 1 кв. 2022 (февраль, март).docx'),
+(199, 2280, '61dedfe3b6d0e_Обоснование молоко на 1 кв. (февраль, март) 2022г..pdf', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61dedfe3b6d0e_Обоснование молоко на 1 кв. (февраль, март) 2022г..pdf'),
+(200, 2280, '61dedfe889017_Положение о закупках 20.07.2021.pdf', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61dedfe889017_Положение о закупках 20.07.2021.pdf'),
+(201, 2280, '61dedfed0a5ae_Изменения в Положение о закупке товаров, работ и услуг.pdf', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61dedfed0a5ae_Изменения в Положение о закупке товаров, работ и услуг.pdf'),
+(202, 2279, '61dc260fc0a12_Извещение и документация запроса котировок фрукты.docx', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc260fc0a12_Извещение и документация запроса котировок фрукты.docx'),
+(203, 2279, '61dc2613c3468_Проект договора на поставку фруктов.doc', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc2613c3468_Проект договора на поставку фруктов.doc'),
+(204, 2279, '61dc261af24ff_Положение о закупке товаров_compressed_compressed.pdf', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc261af24ff_Положение о закупке товаров_compressed_compressed.pdf'),
+(205, 2278, '61dc235c6b3ce_Извещение и документация запроса котировок молоко.docx', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc235c6b3ce_Извещение и документация запроса котировок молоко.docx'),
+(206, 2278, '61dc236152afa_Проект договора на молоко.doc', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc236152afa_Проект договора на молоко.doc'),
+(207, 2278, '61dc2369300c9_Положение о закупке товаров_compressed_compressed.pdf', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc2369300c9_Положение о закупке товаров_compressed_compressed.pdf'),
+(208, 2277, '61dc19adb7155_Извещение и документация запроса котировок крупа.docx', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc19adb7155_Извещение и документация запроса котировок крупа.docx'),
+(209, 2277, '61dc19c307221_Проект договора на крупа, мука, макаронные изделия.doc', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc19c307221_Проект договора на крупа, мука, макаронные изделия.doc'),
+(210, 2277, '61dc19cd50847_Положение о закупке товаров_compressed_compressed.pdf', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc19cd50847_Положение о закупке товаров_compressed_compressed.pdf'),
+(211, 2276, '61dc15e14bfc1_Извещение и документация запроса котировок бакалея.docx', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc15e14bfc1_Извещение и документация запроса котировок бакалея.docx'),
+(212, 2276, '61dc15e5867f8_Проект договора на поставку бакалеи.doc', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc15e5867f8_Проект договора на поставку бакалеи.doc'),
+(213, 2276, '61dc15ee8d32a_Положение о закупке товаров_compressed_compressed.pdf', 'https://storage.eltox.ru/4b9f5821-6471-4122-b9a8-33fa84ad1b2d/61dc15ee8d32a_Положение о закупке товаров_compressed_compressed.pdf'),
+(214, 2275, '61cc50bd8537b_Извещение котировка.docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61cc50bd8537b_Извещение котировка.docx'),
+(215, 2275, '61cc50c127f87_02 Описание предмета закупки.docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61cc50c127f87_02 Описание предмета закупки.docx'),
+(216, 2275, '61cc50c38b1ae_2.1 Обоснование НМЦД.docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61cc50c38b1ae_2.1 Обоснование НМЦД.docx'),
+(217, 2275, '61cc50c65fbda_04 Проект договора.docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61cc50c65fbda_04 Проект договора.docx'),
+(218, 2275, '61cc50c9024c5_05 Положение о закупках 2021г..docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61cc50c9024c5_05 Положение о закупках 2021г..docx'),
+(219, 2274, '61ba03333f926_Извещение котировка.docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61ba03333f926_Извещение котировка.docx'),
+(220, 2274, '61ba0336cecf2_05 Положениео закупке от 06.10.2021 с изменениями.docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61ba0336cecf2_05 Положениео закупке от 06.10.2021 с изменениями.docx'),
+(221, 2274, '61ba03390f796_04 Проект договора.doc', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61ba03390f796_04 Проект договора.doc'),
+(222, 2274, '61ba033b37ed9_2.1 Обоснование НМЦД.docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61ba033b37ed9_2.1 Обоснование НМЦД.docx'),
+(223, 2274, '61ba033d74205_02 Описание предмета закупки.docx', 'https://storage.eltox.ru/a9dae8ad-1d60-4411-89bf-e8a53c9ff262/61ba033d74205_02 Описание предмета закупки.docx'),
+(224, 2273, '61b876696b866_Извещение котировка.docx', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61b876696b866_Извещение котировка.docx'),
+(225, 2273, '61b8766c30419_02 Описание предмета закупки.docx', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61b8766c30419_02 Описание предмета закупки.docx'),
+(226, 2273, '61b8766e69990_2.1 Обоснование НМЦД.docx', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61b8766e69990_2.1 Обоснование НМЦД.docx'),
+(227, 2273, '61b87670b04d2_04 Проект договора.doc', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61b87670b04d2_04 Проект договора.doc'),
+(228, 2273, '61b876734ced5_05 Положениео закупке.pdf', 'https://storage.eltox.ru/411f5a39-adb3-4339-8cf4-bc20b47d9c41/61b876734ced5_05 Положениео закупке.pdf');
 
 -- --------------------------------------------------------
 
@@ -116,6 +116,7 @@ INSERT INTO `procedures` (`number`, `ooc`, `link`, `email`) VALUES
 --
 ALTER TABLE `documents`
   ADD PRIMARY KEY (`d_id`),
+  ADD UNIQUE KEY `ProcDoc` (`pr_num`,`doc_name`(100)),
   ADD KEY `pr_num` (`pr_num`);
 
 --
@@ -132,7 +133,7 @@ ALTER TABLE `procedures`
 -- AUTO_INCREMENT для таблицы `documents`
 --
 ALTER TABLE `documents`
-  MODIFY `d_id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
+  MODIFY `d_id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=229;
 
 --
 -- Ограничения внешнего ключа сохраненных таблиц
